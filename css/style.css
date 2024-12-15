@@ -1,0 +1,36 @@
+/* Basic styles for the portfolio */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#projects {
+    margin: 20px 0;
+}
+#projects h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+#projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+#projects ul li {
+    margin: 5px 0;
+}
+#projects ul li a {
+    text-decoration: none;
+    color: #0073e6;
+}
+#projects ul li a:hover {
+    text-decoration: underline;
+}
